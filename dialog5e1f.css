@@ -1,0 +1,32 @@
+
+.pageDialog body {height:100%; margin:0;
+    text-align: center;
+}
+.pageDialog h3
+{
+	color: #FF3300;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Simplified Arabic';
+	direction: rtl;
+}
+.pageDialog h2
+{
+	color: #FFFF99;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Simplified Arabic';
+}
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {height:320px; width:590px; color:#bbb; background-color:#333; border:9px solid #444; padding:5px;max-width:80%;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../Images/close_dialog.gif) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container #basic-modal-content {padding:8px;}

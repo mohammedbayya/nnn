@@ -1,0 +1,30 @@
+﻿html {
+    direction: rtl;
+    text-align :center;
+}
+
+
+body {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 8pt;
+    text-align :center;
+}
+
+.HeaderText1 {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.HeaderText2 {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 8pt;
+}
+
+.main_content {
+    margin: 0px 10px 30px 10px;
+    background-color: #333333;
+    width: 420px;
+}
